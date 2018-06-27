@@ -52,8 +52,8 @@ Menu, Tray, Add , E&xit, GuiClose ;
 
 
 Gui, Color, 000000
-Gui, Add, Picture, x0 y0 w333 h281 , %A_ScriptDir%\App background.png
-Gui, Add, Picture, x155 y103 w130 h150 , %A_ScriptDir%\WA logo.png
+Gui, Add, Picture, x10 y1 w333 h281 , %A_ScriptDir%\App background.png
+Gui, Add, Picture, x172 y122 w130 h150 , %A_ScriptDir%\WA logo.png
 
 Gui, Font, s9 cFFFFFF Bold, Arial
 Gui, Add, Text, x16 y130 w100 h17 , Ship Weight :
@@ -73,9 +73,9 @@ Gui, Font, s8 cFFFFFF, Catamaran
 Gui, Add, Text, x114 y255 w33 h21 , Knots
 
 Gui, Font, s7 cFFFFFF, Catamaran
-Gui, Add, Text, x65 y95 w200 h14 , S p e e d   =   S q r t  (  ( Power * 2 )   /  Weight )  *  50
+Gui, Add, Text, x70 y98 w200 h14 , S p e e d   =   S q r t  (  ( Power * 2 )   /  Weight )  *  50
 
-Gui, Show, x1560 y10 h282 w335, Worlds Adrift Speed Calc.
+Gui, Show, x1560 y10 h282 w335, Worlds Adrift Speed Calc. Version 1.0
 
 return
  
@@ -136,12 +136,7 @@ I recommend running Ahk2Exe.ahk from AutoHotkey\Compiler folder, once installed.
 
 https://autohotkey.com/
 
-
-
-
-
-
-
+https://github.com/fincs/Ahk2Exe
 
 
 
@@ -151,6 +146,4 @@ https://autohotkey.com/
 See you In game
 
 Feather Out
-
-June 26, 2018
 */
