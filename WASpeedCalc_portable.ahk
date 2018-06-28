@@ -106,12 +106,12 @@ Homogenize Fonts (I used 3... Arial , Catamaran and Roboto).
 
 .The Autohotkey math operator used to define
 a result with a maximum of x decimal digits (i used 2)
-is misleadingly called 'Round'... (see line 61);
+is misleadingly called 'Round'... (see line 84);
 
-.Fileinstall (lines 37, 38, 39) is used 
+.Fileinstall (lines 43, 44, 45) is used 
 to include the specified files inside a compiled version of the script;
 
-.+Limit7 (lines 48, 52) allows the user to input a maximum of 7 digits;  
+.+Limit7 (lines 61, 66) allows the user to input a maximum of 7 digits;  
 
 .In general, the code is a mess, :).
 
